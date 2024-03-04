@@ -4,8 +4,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "divine-dev-terraform-bucket"
+    bucket = "divine-bucket2"
     key    = "terraform.tfstate"
-    region = "eu-west-2"
+    region = "us-west-2"
   }
 }

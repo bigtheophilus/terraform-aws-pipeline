@@ -6,6 +6,6 @@ terraform {
   backend "s3" {
     bucket = "divine-bucket2"
     key    = "terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-2"
   }
 }
